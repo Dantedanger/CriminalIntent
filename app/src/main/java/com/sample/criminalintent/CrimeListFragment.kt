@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.sample.criminalintent
 
 import android.content.Context
