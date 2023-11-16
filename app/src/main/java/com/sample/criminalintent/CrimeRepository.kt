@@ -15,7 +15,6 @@ class CrimeRepository private constructor(context: Context) {
             CrimeDatabase::class.java,
             DATABASE_NAME
         )
-        .createFromAsset(DATABASE_NAME)
         .build()
     private val crimeDao = database.crimeDao()
     private val executor = Executors.newSingleThreadExecutor()
